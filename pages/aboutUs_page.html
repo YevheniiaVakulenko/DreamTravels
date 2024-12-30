@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="/DreamTravels/script/about_page.js"></script>
+    <title>About</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('/DreamTravels/images/anotherback.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: left;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar .logo {
+            display: flex;
+            align-items: center;
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.3em;
+        }
+
+        .navbar .logo i {
+            margin-right: 10px;
+        }
+
+        .navbar .pages {
+            display: flex;
+        }
+
+        .navbar .pages a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1em;
+            transition: color 0.3s;
+        }
+
+        .navbar .pages a:hover {
+            color: 	#DAA520
+        }
+
+        .content {
+            padding: 50px 20px;
+            max-width: 800px;
+            margin: auto;
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .team {
+            margin-top: 30px;
+        }
+
+        .team h2 {
+            font-size: 2em;
+            margin-bottom: 15px;
+        }
+
+        .team .member {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .team .member img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+
+        .team .member span {
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            p {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <i class="fa fa-plane" aria-hidden="true"></i>
+            <span><i>DreamTravels</i></span>
+        </div>
+        <div class="pages">
+            <a href="/DreamTravels/pages/travelRecomm_page.html">Home</a>
+            <a href="/DreamTravels/pages/aboutUs_page.html">About Us</a>
+            <a href="/DreamTravels/pages/contact_page.html">Contact Us</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <h1>About Us</h1>
+        <p>
+            Welcome to Dream Travels, your trusted partner in crafting unforgettable travel experiences. Our company specializes
+            in personalized travel planning, ensuring every journey is tailored to your preferences and dreams. With years of
+            expertise and a passion for exploration, we strive to make your travel dreams a reality.
+        </p>
+
+        <div class="team">
+            <h2>Meet Our Team</h2>
+            <div id="team-container">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
